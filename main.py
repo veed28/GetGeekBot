@@ -31,14 +31,17 @@ tabs_back = 29
 count = 0
 vpn_list_edit = vpn_list
 # countries = len(vpn_list_edit) - 1
-print(f"{len(vpn_list_edit)} countries available for vpn routing.")
+print(f"{len(vpn_list_edit)} locations available for vpn routing.")
 
 while vpn_list_edit != []:
     for x in range(1, 12):
         if count % 11 == 0 and count > 1:
-            country = random.choice(vpn_list_edit)
-            vpn_list_edit.remove(country)
-            country()
+            try:
+                country = random.choice(vpn_list_edit)
+                vpn_list_edit.remove(country)
+                country()
+            except IndexError:
+                break
         else:
             pass
         if x == 1:
