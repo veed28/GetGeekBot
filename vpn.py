@@ -202,4 +202,4 @@ def latvia():
     print('swapped to latvia')
 
 vpn_list = [albania, andorra, austria, serbia, bulgaria, croatia, cambodia, colombia, cyprus, czech,
-            denmark, estonia, finland, greece, iceland, ireland, israel, kazakhstan, latvia]
+            denmark, finland, greece, iceland, ireland, israel, kazakhstan, latvia]
