@@ -201,5 +201,5 @@ def latvia():
     app.Surfshark.child_window(title="Connect", auto_id="connect_button", control_type="Button").click()
     print('swapped to latvia')
 
-vpn_list = [albania, andorra, austria, serbia, bulgaria, brazil, croatia, cambodia, colombia, cyprus, czech,
-            denmark, estonia, finland, greece, hungary, iceland, indonesia, ireland, israel, kazakhstan, latvia]
+vpn_list = [albania, andorra, austria, serbia, bulgaria, croatia, cambodia, colombia, cyprus, czech,
+            denmark, estonia, finland, greece, iceland, ireland, israel, kazakhstan, latvia]
