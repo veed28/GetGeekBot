@@ -352,7 +352,7 @@ def latvia():
     print('swapped to latvia')
 
 
-vpn_list = [albania, andorra, australia_perth, australia_melbourne, australia_adelaide, australia_brisbane,
+vpn_list = [albania, andorra, australia_perth, australia_melbourne, australia_adelaide,
             australia_sydney, belgium_antwerp, belgium_brussels, canada_vancouver, canada_montreal, canada_toronto,
             france_bordeaux, france_paris, france_marseille, austria, serbia, bulgaria, croatia, cambodia,
             colombia, cyprus, czech, denmark, finland, greece, iceland, ireland, israel, kazakhstan, latvia]

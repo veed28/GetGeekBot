@@ -10,12 +10,12 @@ from pywinauto.application import Application
 import vpn
 from vpn import vpn_list
 
-URL='https://getgeek.ro/category/periferice/'
+URL = 'https://getgeek.ro/category/periferice/'
 # disconnect_url = 'child_window(title="Disconnect", auto_id="connect_button", control_type="Button")'
 # connect_url = 'child_window(title="Connect", auto_id="connect_button", control_type="Button")'
 
 chrome_options = webdriver.ChromeOptions()
-chrome_options.page_load_strategy='eager'
+chrome_options.page_load_strategy = 'eager'
 chrome_options.add_experimental_option("detach", True)
 chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                             'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3')
@@ -67,7 +67,7 @@ while vpn_list_edit != []:
                     sleep(1)
                     app.Surfshark.child_window(title="Connect", auto_id="connect_button", control_type="Button").click()
                     sleep(3)
-                    count +=1
+                    count += 1
                     print(f"Current count: {count}")
                     if tabs_index == 29:
                         driver.switch_to.window(driver.window_handles[tabs_index - tabs_back])
